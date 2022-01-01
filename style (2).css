@@ -1,0 +1,624 @@
+/* @media screen and (min-width:300px) {
+    body{
+        height: 100vh;
+        width: 100vw;
+    }
+} */
+
+
+
+@media screen and (max-width:768px) {
+    #grade1 {
+        height: 100vh;
+        width: 50vw;
+        background-color: rgb(140, 0, 255);
+        background-image: linear-gradient(rgb(162, 0, 255), rgba(0, 225, 255, 0.938));
+    }
+    .header{
+        background: transparent; 
+    }   
+     .name{
+       margin-right: -20rem;
+    }
+    .name p{
+    color: rgb(248, 246, 246);
+      margin-left: 1rem;
+    }
+
+    .home{
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    .container1{
+        height: 100vh;
+        width: 100%;
+    }
+    .bold{
+        color: black;
+    }
+    
+    .img1{
+        display: flex;
+        flex-basis: 50%;
+    }
+    .img{
+         width: 50vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center center;
+    }
+    .info{
+        display: flex;
+        flex-basis: 50%;
+        height: 100vh;
+        width: 50vw;
+        flex-direction: column;
+        float: right;  
+        color: rgb(245, 241, 241);
+        /* background-color: pink; */
+    }
+    #grade1 {
+        height: 100vh;
+        width: 50vw;
+        background-color: rgb(140, 0, 255);
+        background-image: linear-gradient(rgb(162, 0, 255), rgba(0, 225, 255, 0.938));
+    }
+     .box{
+        padding: 1rem 3rem;
+        margin-top: 4rem;
+        font-family:  'Condensed', sans-serif;
+    } 
+    .box h1{
+        font-size:1rem;
+        color: #f1c779;
+    }
+    .box h2{
+        font-size: 1rem;
+        margin-top: 2.5rem;
+    }
+    .box p{
+        margin-top: 1.8rem;
+        color: white;
+        font-size: larger;
+    }
+    .box ul{
+        padding: 1rem 0;
+    }
+    .box ul li{
+        font-size: unset;
+        line-height: 150%;
+    }
+} 
+
+@media screen and (max-width:768px) {
+    .container2{
+        height: 100vh;
+        width: 100vw; 
+        display: flex;
+        flex-wrap: wrap;
+    }
+  
+    .details{
+        /* display: inline-block; */ 
+        flex-basis: 100%;
+       width: 100vw;
+       height: 330px;
+    }
+    
+
+    .img2{
+        flex-basis: 50%;
+        height: 500px;
+        width: 50vw;
+     }
+     .img2 img{
+       width: 50vw;
+       flex-basis: 50%;
+       background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+     }
+
+     .skill{
+        /* display: flex; */
+        flex-basis: 50%;
+        width: 50vw;
+        height: 470px;
+        flex-direction: column;
+        color:blanchedalmond;
+        background-color: brown;
+     }
+     .skill-prog{
+         padding: 0rem 0rem;
+         width: 50vw;
+     }
+     #grade2 {
+        height: 500px;
+        width: 50vw;
+        background-color: black;
+        background-image: linear-gradient(rgb(238, 235, 235), rgba(10, 10, 10, 0.938));
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    .container3{
+        margin-top: 16.9rem
+    }
+    .exp{
+        padding: 1rem 0rem;
+    }
+    .exp h1{
+        margin-left: 3rem;
+        font-size: 1.6rem;
+    }
+    .exp h2{
+        margin-left: 3rem;
+        font-size: 1.3rem;
+    }
+    .exp p{
+        font-size: 1.1rem;
+    }
+    .collage{
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    .edu{
+        padding: 1rem 0rem;
+    }
+    .edu h1{
+        margin-left: 3rem;
+        font-size: 1.6rem;
+    }
+    .edu h2{
+        margin-left: 3rem;
+        font-size: 1.3rem;
+    }
+    .edu p{
+        font-size: 1.1rem;
+    }
+    .collage{
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    .date{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .text{
+        font-size: 1.9rem;
+        
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container6{
+        height: 100vh;
+        width: 100vw; 
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .per-info{
+        height: 528px;
+    }
+    .cont-img{
+        flex-basis: 50%;
+         width: 50vw;
+    }
+    .contact-button{
+        margin-top: 2rem;
+    }
+
+    .img5{
+        width: 50vw;
+    }
+    .cont-add{
+        flex-basis: 50%;
+         width: 50vw;
+    }
+    .Name{
+        width: 700px;
+    }
+    .message{
+        width: 700px;
+    }
+    .footer{
+        margin-top: 28rem;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:425px) 
+{   
+     
+   nav ul{
+    margin-left: -1rem;
+    width: 100vw;
+   }
+   nav ul li{
+       /* padding: 0rem 0rem; */
+       font-size: 0.4rem;
+   }
+
+     .name p{
+        width: 81vw;
+       margin-left: 2rem;
+       /* font-size: 5rem; */
+     }
+    .home{
+        width: 100vw;
+        height: 200vh;
+        /* background-color: black; */
+    }
+    
+    .container1{
+        width: 100vw;
+        height: 200vh;
+    }
+    .bold{
+        color: black;
+    }
+    
+    .img1{
+        display: flex;
+        flex-basis: 50%;
+    }
+    .img{
+        width: 100vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center center;
+    }
+    #grade1 {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(140, 0, 255);
+        background-image: linear-gradient(rgb(162, 0, 255), rgba(0, 225, 255, 0.938));
+    }
+    .info{  
+        width: 100vw;
+        margin-top: -0.2rem;
+    }
+    .box{
+        margin-top: 1.8rem;
+    }
+    .box h1{
+        color: #f1c779;
+    }
+    .box h2{
+        font-weight: 300;
+    }
+    .box p{
+        color: white;
+    }
+    .box ul{
+        margin-left: 1rem;
+    }
+
+
+.container2{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: pink; */
+}
+.details{
+    height: 86vh;
+}
+
+.details h1{
+    color: brown;
+}
+.details h2{
+    color: rgb(206, 79, 79); 
+    
+}
+.details p{
+    margin-top: 2rem;
+}
+
+#grade2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    background-image: linear-gradient(rgb(238, 235, 235), rgba(10, 10, 10, 0.938));
+}
+
+
+
+
+.img2{
+     width: 100vw;
+    height: 100vh;   
+ }
+ .img2 img{
+   width: 100vw;
+   flex-basis: 100%;
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+ }
+
+ .skill{
+    flex-basis: 100%;
+    width: 100vw;
+    height: 92vh;
+    color:blanchedalmond;
+ }
+ .skill-prog{
+    width: 100vw;
+    /* padding: 0rem 2rem; */
+    margin-top: 2rem;
+}
+
+.skill h1{
+    /* font-size: 5rem ; */
+    margin-left: 5rem;
+}
+.skill h2{
+    margin-left: 5rem;
+}
+ .line{
+    margin-left: 3rem;
+    margin-right: 4rem;
+    border: 1px solid black;    
+}
+.skill-prog strong{
+    font-weight: bold;
+    margin-left: 2rem;
+    
+}
+.skill-prog span{
+    font-weight: bold;
+    display: inline-block;
+}
+.per{
+    float: right!important;
+    margin-right: 3rem;
+}
+.color-white{
+    color: white;
+}
+
+
+
+.container3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    margin-top: 58.8rem;
+    flex-direction: column;
+}
+.img3{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.exp{
+    width: 100vw;
+    height: 100vh;
+}
+.exp p{
+    margin-top: 0rem
+}
+
+.collage{
+    margin-left: 4rem;
+}
+.brief-icon{  
+   padding: 1rem 1rem;
+}
+
+
+
+.container4{
+    width: 100vw;
+    height: 156vh;
+    display: flex;
+    margin-top: 20rem;
+    flex-direction: column;
+}
+.photo{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.img4{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.edu{
+    /* display: flex; */
+    width: 100vw;
+    height: 100vh;
+}
+
+.edu p{ 
+    margin-top: 0rem
+}
+
+
+
+.container5{
+    width: 100vw;
+    height: 56vh;
+}
+.text{
+    /* font-size: 4rem; */
+    width: 98vw;
+}
+.icon_star{
+    /* font-size: 0rem; */
+    padding: 2rem;
+}
+
+
+
+.container6{
+    width: 100vw;
+    height: 100vh;
+}
+.per-info{
+    flex-basis: 100%;
+    width: 100vw;
+    height: 100vh;
+}
+.Name{
+    width: 90vw;
+}
+.message{
+    width: 90vw;
+    height: 30vh;
+}
+
+
+
+
+.cont-img{
+    width: 100vw;
+    height: 100vh;
+}
+.img5{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.cont-add{
+    flex-basis: 100%;
+}
+
+.footer{
+    width: 100vw;
+    height: 5vh;
+    margin-top: 55rem;
+}
+}
+
+
+
+/* @media screen and (max-width:375px) {
+    .skill-prog{
+        padding: 0rem 3rem
+    }
+} */
+
+@media screen and (max-width:320px) {
+    .footer-item{
+        padding: 0rem 0rem;
+    }
+     .name{
+         margin-right: -30rem;
+     }
+     .box h1{
+         margin-top: -1rem;
+     }
+     .exp {
+        margin-top: -11rem;
+    }
+     .container3{
+         height: 284.3vh;
+         margin-top: 69rem;
+        }
+        .container4{
+        margin-top: -36rem;
+        }
+     .contact__button{
+        margin-left: 0rem;
+    }
+     .copyright{
+       font-size: 1rem;
+    }
+    nav ul {
+        margin-left: 12rem
+    }
+    .brief-icon{
+        padding: 0rem 1.9rem;
+    }
+    .details{
+        height: 652px;
+        margin-top: -2rem
+    }
+    #grade1 {
+        height: 100vh;
+        background-color: rgb(140, 0, 255);
+        background-image: linear-gradient(rgb(162, 0, 255), rgba(0, 225, 255, 0.938));
+    }
+    .img{
+        height: 100vh;
+    }
+    .text{
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+    .home{
+        height: 105.3vh;
+    }
+    .img{
+        height:105.3vh ;
+    }
+    .buton{
+        margin-bottom: 2rem;
+    }
+    .box h1{
+        margin-bottom: -1rem;
+    }
+    .exp p{
+        width: 45vw;
+    }
+    .per-info{
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+    }
+    .NAME{
+        width: 450px;
+    }
+    .message{
+        width: 450px;
+    }
+    .cont-add p{
+        margin-left: 0.79rem;
+        font-size: 1rem;
+    }
+    .cont-add h3{
+    font-size: 1.3rem;
+    }
+    .contact-icon{
+        font-size: 0.9rem;
+    }
+    .info{
+        height: 105.3vh;
+    }
+    .collage{
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width:1440px) {
+    /* .Name{
+        width: 600px;
+    }
+    .message{
+        width: 600px;
+    } */
+    /* .exp{
+        width: 39vw;
+    }  */
+    
+}
