@@ -472,7 +472,7 @@ background-position: center;
     display: flex;
     height: 550px;
     width: 100vw;
-    background-color: coral;
+    background-color: beige;
 }
 .per-info h3{
     padding: 1rem;
@@ -486,14 +486,14 @@ input{
     outline: none;
 }
 input::placeholder{
-    color: rgb(252, 249, 249);
+    color: rgb(16, 13, 13);
 }
 textarea{
     outline: none;
 }
 textarea::placeholder{
     outline: none;
-    color: rgb(252, 249, 249);
+    color: rgb(34, 28, 28);
 }
 
 .Name{
